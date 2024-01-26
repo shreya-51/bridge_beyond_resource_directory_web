@@ -57,7 +57,7 @@ const Home: React.FC = () => {
           className="p-2 border border-gray-300 rounded-md block w-full md:w-[60rem] shadow-sm"
         />
       </div>
-      <div className="flex flex-col flex-wrap items-center gap-y-4 py-4">
+      <div className="flex flex-col items-center gap-y-4 py-4">
         <div className="flex flex-wrap gap-x-4 gap-y-2">
           <Button variant="outline" onClick={() => handleCategoryClick('food')}>Food</Button>
           <Button variant="outline" onClick={() => handleCategoryClick('shelters')}>Shelters</Button>
